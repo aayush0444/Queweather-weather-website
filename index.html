@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queweather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+         <video autoplay loop muted playsinline id="background-video" preload="auto">
+        <source src="snowvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+</div>
+   
+    <p id="webname">Queweather</p>
+
+    <div id="enter-location">
+        <h3 id="enter">Enter your Location</h3>
+        <input type="text" id="user-location" placeholder="Enter your Location">
+        <button id="search-button">GO</button>
+    </div>
+
+    <div id="info-cards-container">
+        <div class="info-card">
+            <h3 class="card-title">City</h3>
+            <p id="city-name">Toronto</p>
+        </div>
+        <div class="info-card">
+            <h3 class="card-title">Temperature</h3>
+            <p id="temp">12°C</p>
+        </div>
+        <div class="info-card">
+            <h3 class="card-title">Time</h3>
+            <p id="currenttime">12:45 PM</p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
